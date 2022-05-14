@@ -29,3 +29,33 @@ select {
   padding: 8px;
   margin-top: 6px;
 }
+
+#checkboxes label {
+  cursor: pointer;
+}
+
+#radioboxes label {
+  cursor: pointer;
+}
+
+textarea {
+  height: 70px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+input:hover {
+  transform: scaleY(1.2);
+}
